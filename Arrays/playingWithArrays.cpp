@@ -4,21 +4,23 @@ using namespace std;
 
 int main()
 {
-    int originalNumber;
+    const int size = 4;
+    int otherArr[size];
+    int armaghanArray[size] = {1, 2, 3, 4};
 
-    // Input
-    cout << "Enter a four-digit integer: ";
-    cin >> originalNumber;
+    cout << "Ulta array\n";
 
-    // Encrypt the number
-
-    // Output encrypted number
-    cout << "Encrypted Number: " << endl;
-
-    // Decrypt the number
-
-    // Output decrypted number
-    cout << "Decrypted Number: " << endl;
+    for (int i = size - 1; i >= 0; i--)
+    {
+        otherArr[i] = armaghanArray[i];
+        cout << otherArr[i] << endl;
+    }
+    cout << "Sahi array\n";
+    
+    for (int i = 0; i < size; i++)
+    {
+        cout << otherArr[i] << endl;
+    }
 
     return 0;
 }
