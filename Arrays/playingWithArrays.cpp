@@ -5,21 +5,21 @@ using namespace std;
 int main()
 {
     const int size = 4;
-    int otherArr[size];
+    int newArra[size];
     int armaghanArray[size] = {1, 2, 3, 4};
 
     cout << "Ulta array\n";
 
     for (int i = size - 1; i >= 0; i--)
     {
-        otherArr[i] = armaghanArray[i];
-        cout << otherArr[i] << endl;
+        newArra[i] = armaghanArray[i];
+        cout << newArra[i] << endl;
     }
     cout << "Sahi array\n";
-    
+
     for (int i = 0; i < size; i++)
     {
-        cout << otherArr[i] << endl;
+        cout << newArra[i] << endl;
     }
 
     return 0;
