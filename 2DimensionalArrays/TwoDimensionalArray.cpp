@@ -15,11 +15,11 @@ int main()
     {
         for (int c = 0; c < cols; c++)
         {
-            cout<<rows<<"/t";
-            cout<<cols<<"/t";
-            cout << "student " << marks[r][c]<<"marks ";
-            cin>> marks[r][c];
-        } // Use '<=' instead of '<' to print a row
+            cout << rows << "/t";
+            cout << cols << "/t";
+            cin >> marks[r][c];
+            cout << "student " << marks[r][c] << "marks ";
+        }
     }
 
     return 0;
