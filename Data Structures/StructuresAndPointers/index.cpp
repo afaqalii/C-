@@ -8,12 +8,11 @@ struct Rectangle
     int length;
     int area;
 };
-
 void getData(Rectangle *);
 
 int main()
 {
-    Rectangle rectangle1;
+    Rectangle rectangle1, rectangle2;
     Rectangle *recPointer = &rectangle1;
     cout << "Enter the following Rectangle details \n";
 
